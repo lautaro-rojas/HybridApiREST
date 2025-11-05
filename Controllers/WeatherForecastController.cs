@@ -29,5 +29,9 @@ namespace HybridApi.Controllers
             })
             .ToArray();
         }
+        // TODO: Add endpoints for user authentication and management
+        // IDEA: Integrate with OAuth providers for enhanced security
+        // NOTE: Consider implementing logging for authentication attempts
+        // BUG: Fix potential null reference exceptions in user-related endpoints
     }
 }
